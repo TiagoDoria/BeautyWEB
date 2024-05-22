@@ -1,0 +1,12 @@
+.navbar {
+  transition: transform 0.3s ease;
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1); /* Aumentando sombra */
+  border-width: 2px; /* Aumentando a grossura da borda */
+  border-color: rgba(255, 192, 203, 0.5); /* Cor rosa bem fraquinho */
+  border-style: solid; /* Estilo de borda */
+  height: 12%; /* Defina a altura desejada */
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+}
